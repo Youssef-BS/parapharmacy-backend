@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavbarSet from "./components/navbar/Navbar";
+import  Name from "./components/name project/Name";
+import  Container from "./components/container/Container";
 
 function App() {
+  const divStyle = {
+    fontFamily: 'Times New Roman',
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={divStyle}>
+      <Name />
+      <NavbarSet />
+      <Container /> 
     </div>
   );
 }
