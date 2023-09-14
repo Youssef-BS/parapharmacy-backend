@@ -1,0 +1,23 @@
+.content{
+margin-top:70px;
+}
+.content h1{
+    text-align: center;
+}
+
+.slide1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemNouveau{
+    height: 300px;
+    width: 270px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.itemNouveau img{
+    width: 250px;
+    height: 250px;
+}

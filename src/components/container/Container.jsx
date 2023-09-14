@@ -18,7 +18,7 @@ function Container() {
       <Carousel.Item>
         <img
           className="d-block"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIxgfphC27Effb2DtsjcbVkXRwzEuLGknNxFmAfQTjy6y_XMoA7nqkL7M9bGFteM65SbI&usqp=CAU"
+          src="https://cdn.wallpapersafari.com/41/64/hJSzky.jpg"
           alt="Second slide"
           
         />

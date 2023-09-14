@@ -9,7 +9,7 @@ import "./navbar.css";
 
 function NavbarSet() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary h4">
+    <Navbar expand="lg" className="bg-body-tertiary h6">
       <Container fluid>
         <Navbar.Brand >
             <img src={logo} alt='logo' className='logo'/>
@@ -50,7 +50,7 @@ function NavbarSet() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success">Recherche</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
