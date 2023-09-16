@@ -17,7 +17,7 @@ function Container() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block"
+            className="d-block"
           src="https://cdn.wallpapersafari.com/41/64/hJSzky.jpg"
           alt="Second slide"
           

@@ -2,14 +2,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import logo from "./logo.jpeg";
 import "./navbar.css";
 
 function NavbarSet() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary h6">
+    <Navbar expand="lg" className="navbar bg-body-tertiary h6">
       <Container fluid>
         <Navbar.Brand >
             <img src={logo} alt='logo' className='logo'/>
@@ -43,15 +41,6 @@ function NavbarSet() {
             <Nav.Link href="#action1">maquillage</Nav.Link>
             <Nav.Link href="#action1">accessoires hypoallergique</Nav.Link>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Recherche</Button>
-          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>

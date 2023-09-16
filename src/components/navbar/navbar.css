@@ -1,7 +1,10 @@
-
 .logo{
 cursor: pointer;
 height: 110px;
 width: 110px;
 border-radius: 50%;
+}
+
+.recherche{
+    border: 1px solid pink;
 }

@@ -1,23 +1,132 @@
-.content{
-margin-top:70px;
-}
-.content h1{
-    text-align: center;
-}
-
-.slide1{
-    display: flex;
-    flex-wrap: wrap;
+.items{
+  display: flex;
+  width: 90%;
+  margin:auto;
+  flex-wrap: wrap;
 }
 
-.itemNouveau{
-    height: 300px;
-    width: 270px;
-    text-align: center;
-    margin: 50px auto;
+.items .contentItem{
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.Btn{
+  margin:12px auto;
+  width: 100px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: pink;
+  text-align: center;
+  cursor: pointer;
+
 }
 
-.itemNouveau img{
-    width: 250px;
-    height: 250px;
+.contentItem img{
+  margin:8px auto;
+  height: 270px;
+  width: 220px;
 }
+
+
+
+.catégoriesvedettes{
+  width: 80%;
+  margin: 70px auto;
+}
+
+.catégoriesvedettes .titre{
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid black ;
+  width: 18%;
+  padding-top: 12px;
+}
+
+.catégoriesvedettes .collection-dispo{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catégoriesvedettes img{
+  width: 100%;
+  margin: 12px;
+  cursor: pointer;
+}
+
+.collection-dispo .H{
+  width: 220px;
+  height: 250px;
+  margin: 12px;
+  background-image: url("https://img.freepik.com/photos-premium/tendance-mode-vetements-confortables-porter-au-quotidien-influenceur-mode-masculine-homme-jeune-mannequin-mode-tenue-style-street-guy-insouciant-capuche-bel-homme-capuche-debout-fond-urbain_474717-16292.jpg");
+  background-position:center;
+  background-size: cover;
+}
+.collection-dispo .F{
+  width: 220px;
+  height: 250px;
+  margin: 12px;
+  background-image: url("https://i.pinimg.com/564x/37/ed/c9/37edc997e8e9dff0550346d2c59c2b21.jpg");
+  background-position:center;
+  background-size: cover;
+}
+.collection-dispo .EL{
+  width: 220px;
+  height: 250px;
+  margin: 12px;
+  background-image: url("https://i.pinimg.com/564x/7f/73/31/7f73314b76da0e60d3e3d543015c5aa9.jpg");
+  background-position:center;
+  background-size: cover;
+}
+.collection-dispo .A{
+  width: 220px;
+  height: 250px;
+  margin: 12px;
+  background-image: url("https://i.pinimg.com/564x/96/28/e5/9628e51fbe9177c96592f008272d3071.jpg");
+  background-position:center;
+  background-size: cover;
+}
+.collection-dispo .E{
+  width: 220px;
+  height: 250px;
+  margin: 12px;
+  background-image: url("https://i.pinimg.com/564x/35/ca/28/35ca28ee701d8f268bb3877e809c2b57.jpg");
+  background-position:center;
+  background-size: cover;
+}
+.collection-dispo .M{
+  width: 220px;
+  height: 250px;
+  margin: 12px;
+  background-image: url("https://i.pinimg.com/564x/3b/d8/7b/3bd87b93abdc5feaab5b70df0b0fe6bd.jpg");
+  background-position:center;
+  background-size: cover;
+}
+
+.collection-dispo {
+  cursor: pointer;
+}
+
+.collection-dispo .objet{
+  width: 100%;
+  height: 35%;
+  background-color: white;
+  opacity: 0.8;
+  margin-top: 140px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index:-1;
+  transition: 0.5s;
+  
+}
+
+.collection-dispo .objet b{
+  color: black;
+  margin: auto;
+  transition: 0.5s;
+}
+  

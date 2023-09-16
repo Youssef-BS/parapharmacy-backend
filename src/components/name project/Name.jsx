@@ -5,7 +5,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Name = () => {
   return (
     <div className='name'>
-        <p>Parapharmacie</p>
+        <p>  Parapharmacie Skincare          
+                 <br />
+                 For every age</p>
         </div>
   )
 }
