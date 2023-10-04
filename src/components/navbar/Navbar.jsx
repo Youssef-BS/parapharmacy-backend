@@ -7,7 +7,7 @@ import "./navbar.css";
 
 function NavbarSet() {
   return (
-    <Navbar expand="lg" className="navbar bg-body-tertiary h6">
+    <Navbar expand="lg" className="navbar bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand >
             <img src={logo} alt='logo' className='logo'/>

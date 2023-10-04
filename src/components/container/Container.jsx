@@ -10,7 +10,6 @@ function Container() {
           className="d-block"
           src={test}
           alt="First slide"
-         
         />
         <Carousel.Caption>
         </Carousel.Caption>
@@ -18,7 +17,7 @@ function Container() {
       <Carousel.Item>
         <img
             className="d-block"
-          src="https://cdn.wallpapersafari.com/41/64/hJSzky.jpg"
+          src="https://img.freepik.com/vecteurs-libre/fond-maquillage-realiste_23-2149373139.jpg?w=2000"
           alt="Second slide"
           
         />

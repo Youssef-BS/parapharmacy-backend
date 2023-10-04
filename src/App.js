@@ -1,25 +1,53 @@
 import React from "react";
 import NavbarSet from "./components/navbar/Navbar";
 import  Name from "./components/name project/Name";
-import  Container from "./components/container/Container";
-import Footer from "./components/footer/Footer";
-import Content from "./components/content page/Content";
+import Home from "./pages/Home/Home";
+import { createBrowserRouter, RouterProvider, Outlet , Navigate  } from "react-router-dom";
+import All from "./pages/allProduct/All";
+import Details from "./pages/details/Details";
+
+
+
 
 
 function App() {
-  const divStyle = {
-    fontFamily: 'Times New Roman',
+
+  const Layout = () => {
+    return (
+      <div className="app">
+        <Name />
+        <NavbarSet />
+        <Outlet/>
+      </div>
+    );
   };
 
-  return (
-    <div style={divStyle}>
-      <Name />
-      <NavbarSet />
-      <Container /> 
-      <Content />
-      <Footer />
-    </div>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        {
+          path: "/allproduct",
+          element: <All />,
+        },
+        {
+          path: "/details",
+          element: <Details />,
+        }
+        ],
+        }
+      ]);
+
+        return (
+          <div>
+            <RouterProvider router={router} />
+          </div>
+        );
 }
 
 export default App;

@@ -1,0 +1,58 @@
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+  }
+  
+  .details .foto {
+    width: 30%;
+  }
+  
+  .foto img {
+    height: 400px;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  
+  .caracteristique {
+    width: 45%;
+    max-width: 400px;
+    background-color: #fff;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description {
+    padding: 20px;
+  }
+  
+  .categories {
+    padding: 15px;
+  }
+  
+  .prix {
+    padding: 10px;
+    background-color: aquamarine;
+    margin: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  
+    
+  }
+  
+  .produit {
+    padding: 10px;
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  

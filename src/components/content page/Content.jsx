@@ -1,14 +1,20 @@
 import React from 'react'
 import "./content.css";
 
+
 const Content = () => {
+  
   return (
     <>
-       <div className='name'>
+       <div className='name' style={{marginTop:"70px"}}>
         Notre Nouveaux Produits
         </div>
         <p className='Btn'>Voir plus</p>
+        <div className="swiper-container">
+        <div className="swiper-wrapper">
+ <div className="swiper-slide">
     <div className='items'>
+   
      <div className='contentItem bg-body-tertiary'>
      <img src='https://beautystore.tn/14869-large_default/rouge-a-levres-hydra-matte-.jpg' alt='img'/>
      <p>name</p>
@@ -39,23 +45,70 @@ const Content = () => {
      <p>description</p>
      <p>prix</p>
      </div>
-    
+     <div className='contentItem bg-body-tertiary'>
+     <img src='https://beautystore.tn/14869-large_default/rouge-a-levres-hydra-matte-.jpg' alt='img'/>
+     <p>name</p>
+     <p>description</p>
+     <p>prix</p>
+     </div>
+     <div className='contentItem bg-body-tertiary'>
+     <img src='https://beautystore.tn/14869-large_default/rouge-a-levres-hydra-matte-.jpg' alt='img'/>
+     <p>name</p>
+     <p>description</p>
+     <p>prix</p>
+     </div>
+     <div className='contentItem bg-body-tertiary'>
+     <img src='https://beautystore.tn/14869-large_default/rouge-a-levres-hydra-matte-.jpg' alt='img'/>
+     <p>name</p>
+     <p>description</p>
+     <p>prix</p>
+     </div>
+     </div>
+     </div>
     </div>
-    <div className='name' style={{marginTop:"70px"}}>
+    </div>
+
+     
+     
+        <div className="catégoriesvedettes bg-body-tertiary">
+        <div className='name' style={{marginTop:"60px"}}>
         Notre Categories Disponible
         </div>
-     
-        <div className="catégoriesvedettes">
+        <div className="all">
         <div className="collection-dispo">
-        <div className="H"><div className="objet"><b>Hommes</b><p>article pour hommes<br /> <a href="/toustypeproduit/?categorie=hommes" style={{color : "black" , fontSize:"18px"}}>voir plus</a></p></div></div>
-        <div className="F"><div className="objet"><b>Femmes</b><p>article pour femmes<br /><a href="/toustypeproduit/?categorie=femmes" style={{color : "black" , fontSize:"18px"}}>voir plus</a> </p></div></div>
-        <div className="EL"><div className="objet"><b>Electronique</b><p>article pour electroniques<br /> <a href="/toustypeproduit/?categorie=electroniques" style={{color : "black" , fontSize:"18px"}}>voir plus</a></p></div></div>
-        <div className="A"><div className="objet"><b>Animaux</b><p>article pour animaux<br /> <a href="/toustypeproduit/?categorie=animaux" style={{color : "black" , fontSize:"18px"}}>voir plus</a></p></div></div>
-        <div className="E"><div className="objet"><b>Enfants</b><p>article pour enfants<br /><a href="/toustypeproduit/?categorie=enfants" style={{color : "black" , fontSize:"18px"}}>voir plus</a> </p></div></div>
-        <div className="M"><div className="objet"><b>Maison</b><p>article pour maison<br /><a href="/toustypeproduit/?categorie=maison" style={{color : "black" , fontSize:"18px"}}>voir plus</a> </p></div></div>
+       <p>maquillage</p>  
         </div>  
-        </div>      
+        <div className="collection-dispo" style={{backgroundColor:"#6495ED"}}>
+        <p>nutrition sportive</p>
+        </div>  
+        <div className="collection-dispo" style={{backgroundColor : "purple"}}>
+        <p>Visage</p>
+        </div>  
+        <div className="collection-dispo" style={{backgroundColor : "#FFD700"}}>
+        <p>Corps</p>
+        </div>  
+        <div className="collection-dispo" style={{backgroundColor:"#3CB371"}}>
+        <p>Cheveux</p>
+        </div>  
+        <div className="collection-dispo" style={{backgroundColor:"#FF6347"}}>
+        <p>Compléments alimentaires</p>
+        </div>  
+        <div className="collection-dispo" style={{backgroundColor:"#FF8C00"}}>
+        <p>Hygiène</p>
+        </div>  
+        <div className="collection-dispo" style={{backgroundColor : "#90EE90"}}>
+        <p>accessoires hypoallergique</p>
+        </div>  
+        </div>  
+        </div>    
     
+       <div className='adult'>
+
+       </div>
+       <div className='enfants'>
+        
+       </div>
+
       </>
     )
 }
